@@ -7,4 +7,12 @@
 
 .main-header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.headline {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40pt;
 }

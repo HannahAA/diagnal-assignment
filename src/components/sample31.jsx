@@ -35,25 +35,25 @@ class Movies31 extends React.Component {
                 list1.map((item)=> {
                     switch (item['poster-image'][6]) {
                         case 1:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster1} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster1} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 2:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster2} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster2} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 3:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster3} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster3} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 4:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster4} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster4} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 5:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster5} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster5} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 6:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster6} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster6} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 7:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster7} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster7} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 8:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster8} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster8} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         case 9:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster9} alt={item.name} /></div>
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster9} alt={item.name} /><p className="item-name">{item.name}</p></div>
                         default:
-                            return <div className="el" key={list1.indexOf(item)}><img src={Poster1} alt={item.name} /></div>  
+                            return <div className="el" key={list1.indexOf(item)}><img src={Poster1} alt={item.name} /><p className="item-name">{item.name}</p></div>  
                     }
                 }
                 )                

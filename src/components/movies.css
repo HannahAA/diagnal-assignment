@@ -5,10 +5,11 @@
   /* grid-template-rows: 192px; */
   grid-template-rows: 228px;
   width: 100%;
+  background: black;
 }
 
 .head {
-  background: red;
+  background: black;
   grid-column-start: 1;
   grid-column-end: 4;
   display: flex;
@@ -19,7 +20,9 @@
 }
 
 .el {
-  background: pink;
+  background: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .el1 {
@@ -36,4 +39,10 @@
 
 .el4 {
   background: blue;
+}
+
+.item-name {
+  color: #ffffff;
+  font-weight: light;
+  font-size: 36pt;
 }
