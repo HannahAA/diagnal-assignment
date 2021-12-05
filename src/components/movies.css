@@ -1,0 +1,39 @@
+.container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 192px; */
+  grid-template-rows: 228px;
+  width: 100%;
+}
+
+.head {
+  background: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 36px;
+  /* margin-bottom: 36px; */
+}
+
+.el {
+  background: pink;
+}
+
+.el1 {
+  background: yellow;
+}
+
+.el2 {
+  background: red;
+}
+
+.el3 {
+  background: green;
+}
+
+.el4 {
+  background: blue;
+}
